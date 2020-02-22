@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "1039562515620",
+    "firebase_url": "https://chat-local-ee8ce.firebaseio.com",
+    "project_id": "chat-local-ee8ce",
+    "storage_bucket": "chat-local-ee8ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039562515620:android:4bc4a2ef69c2dc26",
+        "android_client_info": {
+          "package_name": "com.example.group_32.chatloca"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1039562515620-b508du20v0lfc3btlg128jraqgtl8r2s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.group_32.chatloca",
+            "certificate_hash": "082dc7b46300fb2a8bf61b429f828d3ff4390797"
+          }
+        },
+        {
+          "client_id": "1039562515620-790n2fj50e77m99frbn8rpbgs02d6gvj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.group_32.chatloca",
+            "certificate_hash": "029d5e7fb74e0ea1ad5f70ff23a3478084859079"
+          }
+        },
+        {
+          "client_id": "1039562515620-5i9bleupei8l8tuhb28qeu1th8tdnr6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuP-XBzF8pZTW7ypNQ52LGWoY_6Q51dvo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1039562515620-5i9bleupei8l8tuhb28qeu1th8tdnr6o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

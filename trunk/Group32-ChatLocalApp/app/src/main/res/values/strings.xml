@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">ChatLoca</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="basic_profile">BASIC PROFILE</string>
+    <string name="private_information">PRIVATE INFORMATION</string>
+    <string name="edit">Edit</string>
+    <string name="logout">Logout</string>
+    <string name="user_s_name">User\'s Name</string>
+    <string name="todo">TODO</string>
+    <string name="Name">Name:</string>
+    <string name="location">Location:</string>
+    <string name="name_of_location">Name of Location:</string>
+    <string name="Location">Location</string>
+    <string name="sign_up">Sign up</string>
+    <string name="dont_s_have_an_account">Dont\' have an account?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="password">Password</string>
+    <string name="username">username</string>
+    <string name="textChat">text</string>
+    <string name="timeChat">0:0 pm</string>
+    <string name="type_message_here_Chat">Type message here</string>
+    <string name="search_hint">Search</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="dateofbirth">Choose Date</string>
+    <string name="google_maps_key">AIzaSyBHrKJFCE3hzCewPiXCEIuAfoH8svFzFcU</string>
+    <string name="loading">Loading...</string>
+    <string name="email">Username or email</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="default_info_title">Default Location</string>
+    <string name="default_info_snippet">No places found, because location permission is disabled.</string>
+    <string name="option_get_place">Get place</string>
+    <string name="pick_place">Choose a place</string>
+    <string name="setLocation">Set Location</string>
+    <string name="setRoute">Set Route</string>
+    <string name="address">Address</string>
+    <string name="title_activity_view_profile">ViewProfileActivity</string>
+    <string name="information">INFORMATION</string>
+    <string name="title_activity_friend_request">activity_friend_request</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="friend_requests">Friend Requests</string>
+    <string name="close">Close</string>
+</resources>

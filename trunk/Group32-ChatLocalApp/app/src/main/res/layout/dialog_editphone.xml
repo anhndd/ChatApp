@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="400dp"
+    android:focusable="true"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Change phone number"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="120sp"
+                android:layout_height="25sp"
+                android:layout_marginStart="5sp"
+                android:text="Phone Number:"
+                android:textSize="16sp"
+                android:textStyle="normal|bold|italic" />
+
+            <EditText
+                android:id="@+id/EditText_NewPhoneProfile"
+                android:layout_width="150dp"
+                android:layout_height="25sp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/line"
+                android:cursorVisible="true"
+                android:fontFamily="Roboto"
+                android:inputType="phone"
+                android:singleLine="true"
+                android:textColor="@android:color/background_dark"
+                android:textCursorDrawable="@android:color/black"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_CancelPhoneProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:text="Cancel" />
+
+        <Button
+            android:id="@+id/button_ConfirmPhoneProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:text="CONFIRM" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/setmeeting_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_BackChat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_v2"
+            android:drawableStart="@drawable/ic_keyboard_arrow_left"
+            android:fontFamily="Roboto"
+            android:paddingEnd="30sp"
+            android:text="@string/user_s_name"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#FFC8D0FF"
+            android:textColorHighlight="#FFC8D0FF"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_set_appointment"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5sp"
+            android:background="@drawable/ic_setting_meeting" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/appointment"
+        android:layout_below="@id/setmeeting_bar">
+
+        <TextView
+            android:id="@+id/appoint_name"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_marginStart="20dp"
+            android:text="Name"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textColor="#FFFFFFFF"/>
+
+        <TextView
+            android:id="@+id/appoint_date"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_marginStart="10dp"
+            android:text="Date"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textColor="#FFFFFFFF"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/ic_meeting_date"/>
+
+        <TextView
+            android:id="@+id/appoint_time"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_marginStart="20dp"
+            android:text="Time"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textColor="#FFFFFFFF"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/ic_meeting_time"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyler_list_message"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="90dp"
+        android:layout_above="@id/send_message">
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:id="@+id/send_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edtxt_Chat"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLines="4"
+            android:minHeight="44dp"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="8dp"
+            android:background="@drawable/input_text_chat"
+            android:hint="@string/type_message_here_Chat"
+            android:inputType="textMultiLine"
+            android:paddingLeft="15dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:textColor="#FF09090A"
+            app:layout_constraintTop_toBottomOf="@id/recyler_list_message"
+            android:textColorHint="#FF9094AC" />
+
+        <ImageView
+            android:id="@+id/btn_send_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/ic_send_message"/>
+    </LinearLayout>
+
+</RelativeLayout>

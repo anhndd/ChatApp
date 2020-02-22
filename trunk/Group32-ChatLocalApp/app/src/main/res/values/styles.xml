@@ -1,0 +1,64 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="SearchViewStyle" parent="Widget.AppCompat.Light.SearchView">
+
+        <!-- Gets rid of the search icon -->
+        <item name="searchIcon">@drawable/ic_search_message</item>
+        <!-- Gets rid of the "underline" in the text -->
+        <!-- Gets rid of the search icon when the SearchView is expanded -->
+        <item name="android:editTextColor">@color/colorMain</item>
+        <item name="android:textColorHint">@color/colorMain</item>
+        <item name="searchHintIcon">@null</item>
+        <item name="android:textColor">@color/colorMain</item>
+        <!--<item name = "android:background">@drawable/button_v2</item>-->
+        <item name="android:background">@drawable/button</item>
+        <!-- The hint text that appears when the user has not typed anything -->
+        <item name="queryHint">@string/search_hint</item>
+    </style>
+
+    <style name="SearchMemberStyle" parent="Widget.AppCompat.Light.SearchView">
+        <!-- Gets rid of the search icon -->
+        <item name="searchIcon">@drawable/ic_search_member_message</item>
+        <!-- Gets rid of the "underline" in the text -->
+        <!-- Gets rid of the search icon when the SearchView is expanded -->
+        <item name="android:editTextColor">@color/colorMain</item>
+        <item name="android:textColorHint">@color/colorMain</item>
+        <item name="searchHintIcon">@null</item>
+        <item name="android:textColor">@color/colorMain</item>
+        <!--<item name = "android:background">@drawable/button_v2</item>-->
+        <item name="android:background">@drawable/button_v4</item>
+        <!-- The hint text that appears when the user has not typed anything -->
+        <item name="queryHint">@string/search_hint</item>
+    </style>
+
+    <style name="ThemeOverlay.MyTextDetail" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">5</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="datepickerCustom" parent="@android:style/Theme.DeviceDefault.Light.Dialog">
+        <item name="android:colorAccent">@color/blue</item>
+        <item name="android:windowBackground">@android:color/darker_gray</item>
+        <!--<item name="android:windowContentOverlay">@null</item>-->
+        <!--<item name="android:textColorPrimary">@color/white</item>-->
+        <!--<item name="android:textColorSecondary">@color/white</item>-->
+    </style>
+</resources>

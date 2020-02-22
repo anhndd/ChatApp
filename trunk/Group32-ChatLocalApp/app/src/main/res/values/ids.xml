@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="ChatFriend" type="id"/>
+    <item name="RelativeLAddFriend" type="id"/>
+    <item name="RelativeLMemberGroup" type="id"/>
+    <item name="delete" type="id"/>
+    <item name="cancel" type="id"/>
+    <item name="chatMessage" type="id"/>
+    <item name="location" type="id"/>
+    <item name="Viewmessage" type="id"/>
+    <item name="TextviewMember" type="id"/>
+    <item name="addButton" type="id"/>
+    <item name="txtAddFriend" type="id"/>
+    <item name="addMemberButton" type="id"/>
+</resources>

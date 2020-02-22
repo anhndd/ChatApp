@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:focusable="true">
+
+    <android.support.v7.widget.SearchView
+        android:id="@+id/searchMember_Message"
+        style="@style/SearchMemberStyle"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:paddingStart="10sp"
+        android:paddingTop="6sp"
+        android:queryHint="Search"
+        android:singleLine="true"
+        android:textColorHint="#FFC8D0FF"
+        android:textSize="30sp" />
+
+    <ScrollView
+        android:id="@+id/scrollsearchMember_Message"
+        android:layout_width="match_parent"
+        android:background="@mipmap/background"
+        android:layout_height="200sp">
+
+        <LinearLayout
+            android:id="@+id/LinearlayoutsearchMember_Message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/button_CancelsearchMember"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_v4"
+            android:text="Cancel" />
+
+        <Button
+            android:id="@+id/button_OKsearchMember"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_v4"
+            android:text="OK"
+            />
+
+         />
+    </LinearLayout>
+</LinearLayout>
